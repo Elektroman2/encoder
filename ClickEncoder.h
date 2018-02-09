@@ -74,7 +74,7 @@ public:
     doubleClickEnabled = d;
   }
 
-  const bool getDoubleClickEnabled()
+  bool getDoubleClickEnabled()
   {
     return doubleClickEnabled;
   }
@@ -89,7 +89,7 @@ public:
     }
   }
 
-  const bool getAccelerationEnabled()
+  bool getAccelerationEnabled()
   {
     return accelerationEnabled;
   }
